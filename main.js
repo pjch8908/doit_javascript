@@ -170,3 +170,34 @@ for (i = 0; i < rowNum; i++) {
 }
 document.write("</tabe>");
 */
+
+/*
+// 입력한 숫자가 4의 배수인지 확인하는 프로그램
+let n = prompt("숫자를 입력하세요.");
+
+if (n !== null) {
+  if (n % 4 === 0) {
+    document.write(`${n}는 4의 배수입니다`);
+  } else {
+    document.write(`${n}는 4의 배수가 아닙니다`);
+  }
+} else {
+  alert("취소 되었습니다");
+}
+
+*/
+/* 3의 배수 찾기
+let i;
+let n = parseInt(prompt("몇까지의 3의 배수를 찾을까요?", "100"));
+let count = 0;
+
+if (n !== null) {
+  for (i = 1; i <= n; i++) {
+    if (i % 3 === 0) {
+      count++;
+      document.write(`${i}, `);
+    }
+  }
+  document.write(`<p>${n}까지 3의 배수의 개수 : ${count}</p>`);
+}
+*/
