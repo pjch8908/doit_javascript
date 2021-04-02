@@ -145,3 +145,28 @@ if (n !== null) {
 document.write(msg);
 
 */
+
+/* 좌석 배치도 만들기
+let memNum = prompt("입장객은 몇 명인가요?");
+let colNum = prompt("한줄에 몇명씩 앉습니까?");
+
+if (memNum % colNum === 0) {
+  rowNum = parseInt(memNum / colNum);
+} else {
+  rowNum = parseInt(memNum / colNum) + 1;
+}
+
+let i, j;
+
+document.write("<table>");
+for (i = 0; i < rowNum; i++) {
+  document.write("<tr>");
+  for (j = 1; j <= colNum; j++) {
+    seatNo = i * colNum + j;
+    if (seatNo > memNum) break;
+    document.write(`<td>좌석 ${seatNo}</td>`);
+  }
+  document.write("</tr>");
+}
+document.write("</tabe>");
+*/
