@@ -76,3 +76,52 @@ if (userNumber !== null) {
   alert("입력이 취소 되었습니다.");
 }
 */
+
+/*
+// || or 연산자를 사용해 조건 체크하기
+
+let numberOne = prompt("50미만의 숫자를 입력하세요.");
+let numberTwo = prompt("50미만의 숫자를 입력하세요.");
+
+if (numberOne < 10 || numberTwo < 10) {
+  alert("숫자 2개 중에 최소한 하나는 10 미만입니다.");
+} else {
+  alert("숫자 2개 중에서 10미만 숫자가 없습니다.");
+}
+
+*/
+
+/* 1부터 5까지 더하기
+let i;
+let sum = 0;
+
+for (i = 1; i < 6; i++) {
+  sum += i;
+}
+console.log(sum);
+
+*/
+
+/*
+let i;
+let sum = 0;
+
+for (i = 1; i < 1001; i++) {
+  sum += i;
+}
+console.log(sum);
+*/
+
+/* 구구단
+let i, j;
+
+for (i = 1; i <= 9; i++) {
+  document.write("<div>");
+  document.write(`<h3>${i}단 </h3>`);
+  for (j = 1; j <= 9; j++) {
+    document.write(`${i} X ${j} = ${i * j} <br>`);
+  }
+  document.write("</div>");
+}
+
+*/
