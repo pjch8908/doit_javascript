@@ -125,3 +125,23 @@ for (i = 1; i <= 9; i++) {
 }
 
 */
+
+/* while 문으로 팩토리얼 만들기
+let n = prompt("숫자를 입력하세요.");
+let msg = "";
+
+if (n !== null) {
+  let nFact = 1;
+  let i = 1;
+
+  while (i <= n) {
+    nFact *= i;
+    i++;
+  }
+  msg = `${n}! = ${nFact}`;
+} else {
+  msg = "값을 입력하지 않았습니다.";
+}
+document.write(msg);
+
+*/
